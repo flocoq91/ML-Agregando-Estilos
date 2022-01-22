@@ -1,0 +1,55 @@
+footer  {
+    display: block;
+  text-align: center;
+  }
+  
+  footer i {
+      font-size: 2em;
+      margin-bottom: 10px;
+      color: var(--colorAzul);
+  
+  }
+  
+  footer article section{
+      width: 70%;
+      margin-top: 35px;
+      margin-left: 15%;
+      margin-right: 15%;
+  }
+  
+  footer article.findepagina{
+      margin-top: 35px;
+      text-align: left;
+      font-size: 10px;
+  }
+  
+  footer article.findepagina h2 {
+      font-size: 12px;
+      margin-left: 10px;
+      margin-bottom: 10px;
+  }
+  
+  @media (min-width:724px) {
+  
+      footer article.info {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+      }
+  
+      footer article.info section.dato  {
+          width: 33%;
+          margin: 0;
+  
+      }
+  
+      footer article.info section.dato i{
+          transition: all 0.3s;
+      }
+  
+  
+      footer article.info section.dato i:hover {
+          color:#0022aa ;
+      }
+      
+  }

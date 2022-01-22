@@ -1,0 +1,42 @@
+/* Contenedor General*/
+.register-login .contenedor{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 375px;
+}
+/* Contenedor Imput*/
+.register-login .contenedor .container-input{
+    display: flex;
+    margin: 20px 0;
+    
+}
+/* Imputs  va en general.css
+input, button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+
+}
+.btn-rojo{
+    background-color: red;
+}
+.btn-verde{
+    background-color: var(--verde);
+}*/
+
+
+/* Inputs*/
+
+
+
+
+
+/* Contenedor de botones*/
+.register-login .contenedor .container-buttons{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+.register-login .contenedor .container-buttons button{
+    color: white;
+}

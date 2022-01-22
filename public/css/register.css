@@ -1,0 +1,89 @@
+main.register section {
+    background-color: white;
+}
+
+main.register section article {
+    width:90% ;
+    margin: auto;
+    background-color: #ebebeb;
+    max-width: 450px;
+}
+
+main.register section article div.icon input {
+    width: 80%;
+    max-width: 300px;
+    
+}
+
+main.register section article div.icon input.fecha {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+
+main.register section article div h4 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+main.register section article div {
+margin-bottom: 10px;
+margin-left: 10px;
+
+}
+main.register section article div.icon {
+   padding-top: 15px;
+   text-align: center;
+}
+
+main.register section article div.radio{
+    text-align: center;
+    width: 100%;
+}
+
+main.register section article div.radio input {
+    margin-right: 10px;
+}
+
+main.register section article div.radio label {
+   
+    padding: 10px;
+    
+}
+
+main.register section article div.avatar input {
+    width: 90%;
+}
+
+main.register section article div.boton {
+    text-align: center;
+}
+
+main.register section article div.boton button {
+    width: 30%;
+    margin: 5%;
+    
+}
+
+main.register section article div.boton button.boton-rojo {
+    background-color: red;
+    font-size: 15px; 
+    text-transform: uppercase; 
+    font-weight: bold;
+    color: white; 
+    border-radius: 8px;
+}
+
+main.register section article div.boton button.boton-azul {
+    background-color: darkblue;
+    font-size: 15px; 
+    text-transform: uppercase; 
+    font-weight: bold;
+    color: white; 
+    border-radius: 8px;
+    transition: all 0.3;
+}
+
+main.register section article div.boton button.boton-azul:hover{
+    background-color: #0022aa;
+}
